@@ -1,16 +1,7 @@
-# Reactions bubble
+import { useState } from "react";
+import { View, StyleSheet, Text } from "react-native";
+import ReactionBubble from "./animations/ReactionBubble";
 
-![Reaction Bubble](./assets/reaction_bubble.gif)
-
-## Introduction
-
-This repository contains the source code used to remake the WhatsApp reactions bubble using React Native and Reanimated 3
-
-## Usage example
-
-The same example can be found in App.tsx
-
-```jsx
 export default function App() {
   const [selectedReaction, setSetselectedReaction] = useState<string>();
 
@@ -50,4 +41,3 @@ const { containerStyle, chatStyle, chatBubbleStyle, chatTextStyle } =
     chatBubbleStyle: { backgroundColor: "#202A30" },
     chatTextStyle: { color: "white", fontSize: 16 },
   });
-```
