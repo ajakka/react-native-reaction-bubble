@@ -1,6 +1,8 @@
 # Reactions bubble
 
-![Reaction Bubble](./assets/reaction_bubble.gif)
+<div align="center">
+  <img src="assets/reaction_bubble.gif" alt="Reaction Bubble" title="Reaction Bubble" width="50%">
+</div>
 
 ## Introduction
 
